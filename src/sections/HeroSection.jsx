@@ -10,8 +10,8 @@ const HeroSection = () => {
       </h1>
 
       {/* Decor */}
-      <img src="/scribble.svg" alt="image" className="absolute hidden lg:block bottom-10 -rotate-22 left-10" />
-      <img src="/scribble.svg" alt="image" className="absolute hidden lg:block top-5 -rotate-22 right-10" />
+      <img src="./scribble.svg" alt="image" className="absolute hidden lg:block bottom-10 -rotate-22 left-10" />
+      <img src="./scribble.svg" alt="image" className="absolute hidden lg:block top-5 -rotate-22 right-10" />
 
       <p className="text-base sm:text-xl mt-6 sm:mt-8 opacity-70 max-w-2xl mx-2 md:mx-auto ">
         Join us this Sunday, 15th February, as we explore what it truly means to live as Christ-like youths in today&apos;s generation.

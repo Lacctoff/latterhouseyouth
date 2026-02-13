@@ -12,7 +12,7 @@ const RotatedLabel = ({
       <div className={`absolute h-10 w-14 md:h-12 md:w-16 -top-9 sm:-top-16 -right-9 rotate-50 ${clipColor ? clipColor : "bg-cyan-950"}`}></div>
 
       {/* Pin */}
-      <img src="/clipper.png" alt="clipper-image" className={`absolute w-6 ${pinPosition ? pinPosition : "-top-8 right-10 rotate-16"}`} />
+      <img src="./clipper.png" alt="clipper-image" className={`absolute w-6 ${pinPosition ? pinPosition : "-top-8 right-10 rotate-16"}`} />
     </span>
   )
 }

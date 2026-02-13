@@ -49,7 +49,7 @@ const WhyUsSection = () => {
 
 
       {/* Decoration Image */}
-      <img src="/path-3.svg" alt="decorative-image" className="absolute -bottom-92 pointer-events-none" />
+      <img src="./path-3.svg" alt="decorative-image" className="absolute -bottom-92 pointer-events-none" />
     </section>
   )
 }

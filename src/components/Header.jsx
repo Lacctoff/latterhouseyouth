@@ -48,7 +48,7 @@ const Header = () => {
     <header className="relative z-50 p-4 sm:p-6 max-w-7xl mx-auto flex justify-between items-center text-xs sm:text-sm font-medium">
       {/* Logo */}
       <div className="flex items-center space-x-2">
-        <img src="/rccg-logo.png" alt="church-logo" className="size-8 md:size-16 saturate-100" />
+        <img src="./rccg-logo.png" alt="church-logo" className="size-8 md:size-16 saturate-100" />
         <span className="opacity-90 text-base">Latterhouse Parish Youth</span>
       </div>
 

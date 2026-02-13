@@ -26,7 +26,7 @@ const OurKeynoteSpeakers = () => {
                   </span>
     
                   {/* Bandage Image */}
-                    <img src="/bandage.svg" alt="decorative-image" className={`absolute ${item.bagePosition ? item.bagePosition : "-bottom-6 -right-7 rotate-10 size-20"}`} />
+                    <img src="./bandage.svg" alt="decorative-image" className={`absolute ${item.bagePosition ? item.bagePosition : "-bottom-6 -right-7 rotate-10 size-20"}`} />
                 </div>
     
                 <p className="text-gray-900 text-lg font-bold mt-4 text-center">
