@@ -9,9 +9,13 @@ const CTASection = () => {
         <RotatedLabel text="LatterHouse Youth" bgColor={COLORS.lightBlue} textColor="text-gray-900" className="inline-block mt-4 sm:mt-0 z-0" clipColor="bg-[#02242E]" />
       </h2>
 
-      <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-bold text-lg shadow-xl  transition-all duration-200 cursor-pointer hover:bg-transparent hover:text-zinc-50 border-2 border-transparent border-dashed hover:border-zinc-100 ease-in hover:rotate-3 mt-10 hover:animate-wiggle">
-        Join Us Today
-      </button>
+      <a 
+  href="#" 
+  rel="noopener noreferrer"
+  className="bg-white text-gray-900 px-6 py-3 rounded-full font-bold text-lg shadow-xl transition-all duration-200 cursor-pointer hover:bg-transparent hover:text-zinc-50 border-2 border-transparent border-dashed hover:border-zinc-100 ease-in hover:rotate-3 mt-10 hover:animate-wiggle inline-block"
+>
+  Join Us Today
+</a>
     </section>
   )
 }

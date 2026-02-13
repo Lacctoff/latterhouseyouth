@@ -15,10 +15,14 @@ const WhyUsSection = () => {
           </p>
 
           <div className="border-2 p-2 border-dashed w-fit rounded-full mt-6">
-            <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-bold text-lg shadow-xl rotate-3 transition-all saturate-200 ease-in hover:bg-transparent hover:text-zinc-50 border border-transparent hover:border-zinc-300 cursor-pointer">
-              Join Us
-            </button>
-          </div>
+  <a 
+    href="#" 
+    rel="noopener noreferrer"
+    className="bg-white text-gray-900 px-6 py-3 rounded-full font-bold text-lg shadow-xl rotate-3 transition-all saturate-200 ease-in hover:bg-transparent hover:text-zinc-50 border border-transparent hover:border-zinc-300 cursor-pointer inline-block hover:rotate-0"
+  >
+    Join Us
+  </a>
+</div>
         </div>
 
 

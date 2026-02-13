@@ -41,9 +41,10 @@ const OurWorkSection = () => {
       </div>
 
       {/* Btns */}
-      <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-bold text-lg shadow-xl  transition-all duration-200 mt-16 cursor-pointer hover:bg-transparent hover:text-zinc-50 border-2 border-transparent border-dashed hover:border-zinc-100 ease-in hover:rotate-3">
+      <a href="#" aria-label="View more gallery images"
+  rel="noopener noreferrer" className="bg-white text-gray-900 px-6 py-3 rounded-full font-bold text-lg shadow-xl  transition-all duration-200 mt-16 cursor-pointer hover:bg-transparent hover:text-zinc-50 border-2 border-transparent border-dashed hover:border-zinc-100 ease-in hover:rotate-3">
         View more
-      </button>
+      </a>
     </section>
   )
 }

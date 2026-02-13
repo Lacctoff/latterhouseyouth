@@ -41,10 +41,14 @@ const ServicesSection = () => {
 
 
       <div className="self-end mt-16 p-2 mr-30 rounded-full border-2 border-zinc-100 border-dashed">
-        <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-bold text-lg shadow-xl -rotate-3 hover:rotate-0 transition-all saturate-200 duration-200 ease-in hover:bg-transparent hover:text-zinc-50 border border-transparent hover:border-zinc-300 cursor-pointer">
-          Join Us
-        </button>
-      </div>
+  <a 
+    href="#" 
+    rel="noopener noreferrer"
+    className="bg-white text-gray-900 px-6 py-3 rounded-full font-bold text-lg shadow-xl -rotate-3 hover:rotate-0 transition-all saturate-200 duration-200 ease-in hover:bg-transparent hover:text-zinc-50 border border-transparent hover:border-zinc-300 cursor-pointer inline-block text-center"
+  >
+    Join Us
+  </a>
+</div>
     </section>
   )
 }
