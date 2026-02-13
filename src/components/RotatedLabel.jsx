@@ -2,7 +2,7 @@ const RotatedLabel = ({
   text,bgColor,clipColor,textColor = "text-gray-900",className="",pinPosition
 }) => {
   return (
-    <span style={{backgroundColor: `${bgColor}`,}} className={`relative inline-block px-3 py-1 sm:px-4 sm:py-2 text-4xl sm:text-5xl md:text-7xl font-extrabold ${textColor} transform -rotate-3 shadow-lg ${className} rounded -z-10`}>
+    <span style={{backgroundColor: `${bgColor}`,}} className={`relative inline-block px-3 py-1 sm:px-4 sm:py-2 text-2xl sm:text-5xl md:text-7xl font-extrabold ${textColor} transform -rotate-3 shadow-lg ${className} rounded -z-10`}>
       {text}
 
       {/* pin hole */}

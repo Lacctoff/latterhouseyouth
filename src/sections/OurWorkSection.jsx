@@ -8,7 +8,7 @@ const OurWorkSection = () => {
         text="Youth Sunday Gallery"
         bgColor={COLORS.yellow}
         textColor="text-gray-900"
-        className="mb-10 -rotate-3"
+        className="mb-10 -rotate-3 text-2xl sm:text-4xl md:text-5xl"
       />
       
 

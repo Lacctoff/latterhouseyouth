@@ -8,7 +8,7 @@ const OurKeynoteSpeakers = () => {
             text="Our Keynote Speakers"
             bgColor={COLORS.yellow}
             textColor="text-gray-900"
-            className="mb-10 -rotate-3 text-3xl sm:text-4xl md:text-5xl"
+            className="mb-10 -rotate-3 text-2xl sm:text-4xl md:text-5xl"
           />
           
     
