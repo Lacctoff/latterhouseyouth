@@ -63,28 +63,36 @@ const servicesData = [
 const keySpeakers = [
   {
     id: 1,
-    title: "Pastor Leonard",
-    desc: "Ministering on godly character and spiritual responsibility for the Christian youth.",
-    imgUrl: "./pastor-leo.jpeg",
+    title: "Nr. Deborah Itaba",
+    desc: "Sharing practical insights on healthy living and how youths can build balanced physical, mental, and spiritual lifestyles.",
+    imgUrl: "./Mrs-itaba-debiie.jpeg",
     rotation: "-rotate-1",
     bagePosition: "-bottom-6 -left-8 rotate-80",
   },
-  {
-    id: 2,
-    title: "Pastor Oscar",
-    desc: "Teaching on discipline, respect, and living as an example in today's generation.",
-    imgUrl: "./pastor-oscar.jpeg",
-    rotation: "rotate-3 lg:mt-20",
-    bagePosition: "-top-6 -left-7 rotate-10",
-  },
-  {
-    id: 3,
-    title: "Vivian T. Chibuike (Mrs)",
-    desc: "Addressing integrity, identity, and building strong Christian values among youths.",
-    imgUrl: "./mummy-excel-ada.jpeg",
-    rotation: "-rotate-6",
-    bagePosition: "-bottom-6 -right-7 rotate-10",
-  },
+  // {
+  //   id: 1,
+  //   title: "Pastor Leonard",
+  //   desc: "Ministering on godly character and spiritual responsibility for the Christian youth.",
+  //   imgUrl: "./pastor-leo.jpeg",
+  //   rotation: "-rotate-1",
+  //   bagePosition: "-bottom-6 -left-8 rotate-80",
+  // },
+  // {
+  //   id: 2,
+  //   title: "Pastor Oscar",
+  //   desc: "Teaching on discipline, respect, and living as an example in today's generation.",
+  //   imgUrl: "./pastor-oscar.jpeg",
+  //   rotation: "rotate-3 lg:mt-20",
+  //   bagePosition: "-top-6 -left-7 rotate-10",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Vivian T. Chibuike (Mrs)",
+  //   desc: "Addressing integrity, identity, and building strong Christian values among youths.",
+  //   imgUrl: "./mummy-excel-ada.jpeg",
+  //   rotation: "-rotate-6",
+  //   bagePosition: "-bottom-6 -right-7 rotate-10",
+  // },
 ];
 const galleryData = [
   {

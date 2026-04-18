@@ -5,7 +5,7 @@ const OurKeynoteSpeakers = () => {
   return (
     <section className="py-15 pt-2 sm:pt-2 sm:pb-10 flex flex-col items-center justify-center">
           <RotatedLabel
-            text="Our Keynote Speakers"
+            text="Our Keynote Speaker"
             bgColor={COLORS.yellow}
             textColor="text-gray-900"
             className="mb-10 -rotate-3 text-2xl sm:text-4xl md:text-5xl"
@@ -13,9 +13,10 @@ const OurKeynoteSpeakers = () => {
           
     
           {/* speakers */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-8 sm:mt-12 w-full max-w-5xl px-8 lg:px-4  justify-center">
+          {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-8 sm:mt-12 w-full max-w-5xl px-8 lg:px-4  justify-center"> */}
+          <div className="grid mt-8 sm:mt-12 w-full max-w-5xl px-8 md:px-4 lg:px-4  justify-center">
             {keySpeakers.map((item) => (
-              <div key={item.id} className={`relative bg-white p-4 rounded shadow-xl transform ${item.rotation} hover:rotate-0 transition-all duration-300 max-h-fit max-w-xl sm:max-w-none`}>
+              <div key={item.id} className={`relative bg-white p-4 rounded shadow-xl transform ${item.rotation} hover:rotate-0 transition-all duration-300 max-h-fit w-full max-w-xl sm:max-w-none`}>
                 <div style={{
                   backgroundImage: `url(${item.imgUrl})`,
                   // backgroundSize: "cover",
@@ -39,4 +40,4 @@ const OurKeynoteSpeakers = () => {
   )
 }
 
-export default OurKeynoteSpeakers
+export default OurKeynoteSpeakers     
